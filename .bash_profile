@@ -3,7 +3,7 @@
 #   -------------------------------
 #   0. INITIAL MESSAGE
 #   -------------------------------
-    echo -e "\033[1;33m $(cat ~/.bash_conf/cabify_title) \033[0m\n"
+    echo -e "\033[1;33m $(cat ~/.bash_conf/title) \033[0m\n"
 
 #   -------------------------------
 #   1. SET PATHS
@@ -34,3 +34,8 @@
 
     source $BASH_CONF_PATH/.bash_aliases
     source $BASH_CONF_PATH/.bash_functions
+
+#   -------------------------------
+#   5. GOLANG
+#   -------------------------------
+    PATH=$PATH:/usr/local/go1.21.4/bin
