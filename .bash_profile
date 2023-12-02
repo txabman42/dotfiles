@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #   -------------------------------
-#   0. INITIAL MESSAGE
+#   0. INITIAL
 #   -------------------------------
     echo -e "\033[1;33m $(cat ~/.bash_conf/title) \033[0m\n"
 
@@ -10,7 +10,6 @@
 #   -------------------------------
 
     export EDITOR="nvim"
-
     export BASH_CONF_PATH="$HOME/.bash_conf"
     export NVM_DIR="$HOME/.nvm"
 
@@ -39,3 +38,8 @@
 #   5. GOLANG
 #   -------------------------------
     PATH=$PATH:/usr/local/go1.21.4/bin
+
+#   -------------------------------
+#   999. OTHERS
+#   -------------------------------
+    tmux_init
